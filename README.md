@@ -26,10 +26,18 @@ connect as many clients as you want. To send a message just type it in and press
 click enter (_this can't be avoided without a UI, sending messages is currently broken. Sending messages was working and I broke
 it by adding in type information to potentially allow the sending of message types other than text_).
 
-##**Known issues**
+## **Known issues**
 1) To put it simply the whole thing is broken because of how I'm attempting to send type information. This will be fixed shortly
 2) You may have trouble connecting if you have a firewall up for the type of connection you are trying to establish. To fix this 
 either edit or take down the firewall for that type of connection temporarily.
 
-##**ToDO**
-  (*) Allow 
+## **TodO**
+- [x] Allow connections to be established between multiple clients and the server
+- [ ] Fix the issues with message sending
+- [ ] Add a GUI
+- [ ] Test and fix long distance connections
+- [ ] Allow for the sending of clickable links
+- [ ] Allow for the sending of files
+- [ ] Add server commands
+- [ ] Allow for disconnection and reconnection
+- [ ] Upgrade the GUI to something other than Tkinter
