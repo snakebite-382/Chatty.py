@@ -1,4 +1,4 @@
-# **Chatty.io**(_this title is a working title I'll come up with something better later on_)
+# **Chatty.py**(_this title is a working title I'll come up with something better later on_)
 A basic server using python sockets with a gui that is cabable of sending text, files, and links.
 
 ## **About** 
