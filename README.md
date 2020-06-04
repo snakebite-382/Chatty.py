@@ -29,12 +29,14 @@ it by adding in type information to potentially allow the sending of message typ
 ## **Known issues**
 1) To put it simply the whole thing is broken because of how I'm attempting to send type information. This will be fixed shortly
 2) You may have trouble connecting if you have a firewall up for the type of connection you are trying to establish. To fix this 
-either edit or take down the firewall for that type of connection temporarily.
+either edit or take down the firewall for that type of connection temporarily. If it helps this script sends a TCP connection over
+port 1234, this can be edited in the script if you know how to use the python sockets module`
 
 ## **TodO**
 - [x] Allow connections to be established between multiple clients and the server
-- [ ] Fix the issues with message sending
+- [X] Fix the issues with message sending
 - [ ] Add a GUI
+- [ ] Add a chat filter and prevent sending messages that are too long
 - [ ] Test and fix long distance connections
 - [ ] Allow for the sending of clickable links
 - [ ] Allow for the sending of files
