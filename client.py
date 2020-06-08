@@ -8,7 +8,7 @@ from tkinter import *
 
 HEADER_LENGTH = 10
 
-IP = socket.gethostbyname("0.0.0.0")
+IP = ""
 PORT = 1234
 
 class inputNameWin():
