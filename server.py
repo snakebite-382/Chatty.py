@@ -2,7 +2,7 @@ import socket
 import select
 
 HEADER_LENGTH = 10
-IP = socket.gethostbyname('0.0.0.0')
+IP = socket.gethostbyname(socket.gethostname())
 PORT = 1234
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
