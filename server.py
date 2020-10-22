@@ -5,7 +5,7 @@ import threading # for runnign multiple loops
 import time # for telling the time
 
 HEADER_LENGTH = 10
-IP = socket.gethostbyname(socket.gethostname()
+IP = socket.gethostbyname(socket.gethostname())
 PORT = 1234
 
 threadList = []
